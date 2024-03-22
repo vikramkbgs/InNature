@@ -1,0 +1,11 @@
+{
+  "name": "innature",
+  "version": "1.0.0",
+  "description": "This application helps you to find good place for camping!.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikram Kumar",
+  "license": "ISC"
+}
