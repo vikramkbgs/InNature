@@ -1,9 +1,9 @@
 mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'cluster-map',
-    style: 'mapbox://styles/mapbox/light-v10',
-    center: [-103.59179687498357, 40.66995747013945],
-    zoom: 3
+    style: 'mapbox://styles/mapbox/streets-v12',
+    center: [80.59179687498357, 20.66995747013945],
+    zoom: 4
 });
 
 map.addControl(new mapboxgl.NavigationControl());
@@ -19,8 +19,8 @@ map.on('load', function () {
         // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
         data: campgrounds,
         cluster: true,
-        clusterMaxZoom: 14, // Max zoom to cluster points on
-        clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+        clusterMaxZoom: 25, // Max zoom to cluster points on
+        clusterRadius: 40 // Radius of each cluster when clustering points (defaults to 50)
     });
 
     map.addLayer({
