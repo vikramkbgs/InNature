@@ -18,15 +18,6 @@ InNature is a web application built with Node.js and Express.js using EJS (Embed
 - **Templating Engine**: EJS (Embedded JavaScript)
 - **Maps**: Mapbox
 
-## Getting Started
-
-To run the application locally, follow these steps:
-
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Set up environment variables for Mapbox, MongoDB Atlas, and Cloudinary.
-4. Run the server using `npm start`.
-
 ## Future Enhancements
 
 - **Advanced Search Filters**: Implement more advanced search filters.
